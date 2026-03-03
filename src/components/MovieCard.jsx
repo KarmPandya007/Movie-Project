@@ -10,11 +10,11 @@ const MovieCard = ({ heading }) => {
 
     return (
         <div className='p-2'>
-            <h1 className='bg-blue-200 text-center py-4 m-2'>{heading}</h1>
+            <h1 className='bg-blue-200 text-center text-2xl py-4 m-2'>{heading}</h1>
             <ul className='flex flex-row'>
                 {movies.map((movie) => (
                     <li key={movie.id} className='flex flex-col gap-2 ml-10'>
-                        <img src={movie.image} height={300} width={300} alt="photo" />
+                        <img src={movie.image} height={250} width={250} alt="photo" />
                         <li>{movie.name}</li>
                         <li>{movie.year}</li>
                         <li>{movie.description}</li>

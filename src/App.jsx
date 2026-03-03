@@ -6,7 +6,6 @@ import Series from './pages/Series'
 
 function App() {
 
-
   return (
     <>
       <Navbar />
