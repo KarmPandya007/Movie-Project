@@ -5,8 +5,7 @@ const Movies = () => {
     return (
 
         <>
-            <h1>Movies Page</h1>
-            <MovieCard />
+            <MovieCard heading = "Movies Page"/>
         </>
     )
 }
